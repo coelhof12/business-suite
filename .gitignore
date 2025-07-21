@@ -1,0 +1,53 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.idea/
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+echo ".DS_Store" >> .gitignore
+echo "src/stockmanagement/logs/*" >> .gitignore
+git rm --cached .DS_Store
+git rm --cached -r src/stockmanagement/logs/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs
+src/stockmanagement/logs/
+
+.idea/dataSources.xml
+
+/out/
+
