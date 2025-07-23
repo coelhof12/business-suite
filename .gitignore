@@ -36,11 +36,6 @@ build/
 ### VS Code ###
 .vscode/
 
-echo ".DS_Store" >> .gitignore
-echo "src/stockmanagement/logs/*" >> .gitignore
-git rm --cached .DS_Store
-git rm --cached -r src/stockmanagement/logs/
-
 # Ignore macOS system files
 .DS_Store
 
