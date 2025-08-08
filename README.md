@@ -1,7 +1,5 @@
 # Business Suite
 
-![Project Cover](https://raw.example/Repo_Cover.jpg)
-
 ## 💡 The Concept
 
 Business Suite is a demonstration Spring Boot application that exposes a modular API for common business operations.  It currently focuses on stock management but is designed so additional modules—such as employee time tracking, sales and invoice management—can be plugged in over time.  The project highlights typical patterns for building secured REST services with Swagger documentation, validation and unit tests.
